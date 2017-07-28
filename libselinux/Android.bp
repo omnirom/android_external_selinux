@@ -26,6 +26,12 @@ cc_defaults {
             ],
         },
     },
+
+    product_variables: {
+        treble: {
+            cflags: ["-DFULL_TREBLE"],
+        },
+    },
 }
 
 cc_library {
